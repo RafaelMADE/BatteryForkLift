@@ -52,6 +52,22 @@
  - *Notificaciones y alertas de eventos críticos de la batería por ejemplo: notificación de carga terminada, notificación de descarga mínima, errores, fallas, etc.*
 
 ***Dificultades.***
+*Los BMSs suelen estar diseñados para corrientes máximas especificas debido al método de fabricación ya que se utiliza la misma PCB para la montura de los componentes de alta potencia, que no son mas que los elementos que controlan la corriente de carga de la batería y el switch para el corte de la corriente en caso de que ocurra alguna de las alarmas descritas anteriormente.*
+
+*El problema se hace evidente cuando las características del montacargas, nos dice que requiere de una alta corriente para que el motor eléctrico funcione adecuadamente, sin contar por otra parte con la autonomía de la batería lo cual genera un problema mas.*
+
+***Solución***
+*Se propone la implementación de un sistema modular compuesto de varios BMS trabajando en conjunto para proporcionar la potencia necesaria para el funcionamiento adecuando del montacargas.*
+
+*Este tipo de sistemas no son nuevos, de echo son utilizados en la industria de los vehículos eléctricos, como el vehículo de Tesla.*
+
+![modulo de baterias](https://img.remediosdigitales.com/e6340b/1366_2000-3-/450_1000.jpg)
+
+*En la imagen de arriba se puede apreciar como los bloques de baterías con sus BMS integrados cada uno, esta conectados a la linea principal de alimentación del vehículo resolviendo el problema de la alta corriente y la autonomía. Permitiendo la expansión de estos parámetros agregando módulos, sin ningún problema mas que del espacio que se dispone.*
+
+![diagrama bms](../bms.png)
+
+*Aquí se presenta el diagrama de bloques propuesto para el BMS de la batería del montacargas.*
 
 ### Tiempo de desarrollo
 
