@@ -68,7 +68,7 @@
 
 *En la imagen de arriba se puede apreciar como los bloques de baterías con sus BMS integrados cada uno, esta conectados a la linea principal de alimentación del vehículo resolviendo el problema de la alta corriente y la autonomía. Permitiendo la expansión de estos parámetros agregando módulos, sin ningún problema mas que del espacio que se dispone.*
 
-![diagrama bms](../bms.png)
+![diagrama bms](./InfoBatteryForkLift/BMS.png)
 
 *Aquí se presenta el diagrama de bloques propuesto para el BMS de la batería del montacargas.*
 
